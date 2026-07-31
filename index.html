@@ -1,158 +1,765 @@
-<html>
-<title>Wahid Sharifi CV
-</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./w3.css">
-<link rel='stylesheet' href='font/font/font.css'>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Wahid Ullah Sharifi — Database & Web Developer CV</title>
+<meta name="description" content="Official CV of Wahid Ullah Sharifi — Database Developer, Web Developer and Finance Manager in Mazar-e-Sharif, Afghanistan. Bilingual English/Persian resume with downloadable PDF." />
+<meta name="author" content="Wahid Ullah Sharifi" />
+<meta name="keywords" content="Wahid Ullah Sharifi, CV, Resume, Database Developer, Web Developer, Laravel, PHP, MySQL, Finance Manager, Balkh University, Mazar-e-Sharif" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta name="theme-color" content="#0b1020" />
+<link rel="canonical" href="https://wahidullah-sharifi.lovable.app/cv.html" />
 
+<meta property="og:type" content="profile" />
+<meta property="og:title" content="Wahid Ullah Sharifi — Database & Web Developer CV" />
+<meta property="og:description" content="Bilingual (EN/FA) professional CV — Database Developer, Web Developer & Finance Manager. Download the PDF resume." />
+<meta property="og:locale" content="en_US" />
+<meta property="og:locale:alternate" content="fa_AF" />
+<meta property="og:image" content="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Wahid Ullah Sharifi — Database & Web Developer CV" />
+<meta name="twitter:description" content="Bilingual (EN/FA) professional CV — Database Developer, Web Developer & Finance Manager." />
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Wahid Ullah Sharifi",
+  "jobTitle": "Database Developer, Web Developer, Finance Manager",
+  "email": "mailto:wahidullahsharifi777@gmail.com",
+  "telephone": "+93795730361",
+  "nationality": "Afghan",
+  "address": { "@type": "PostalAddress", "addressLocality": "Mazar-e-Sharif", "addressCountry": "AF" },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Balkh University" },
+  "knowsLanguage": ["fa", "ps", "en"],
+  "knowsAbout": ["MySQL", "PHP", "Laravel", "CodeIgniter", "React", "Tailwind CSS", "Financial Management"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        ink: '#070b18',
+        ink2: '#0b1226',
+        indigo1: '#6366f1',
+        indigo2: '#818cf8',
+        cyan1: '#22d3ee',
+        violet1: '#a78bfa'
+      },
+      fontFamily: {
+        display: ['Sora', 'Vazirmatn', 'sans-serif'],
+        body: ['Plus Jakarta Sans', 'Vazirmatn', 'sans-serif'],
+        fa: ['Vazirmatn', 'sans-serif']
+      }
+    }
+  }
+}
+</script>
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "cyan", }
+  :root{
+    /* Default Dark Mode Variables */
+    --bg-body: #070b18;
+    --text-main: #e8ecf8;
+    --text-muted: rgba(232, 236, 248, 0.65);
+    --glass: rgba(255, 255, 255, 0.055);
+    --glass-strong: rgba(255, 255, 255, 0.09);
+    --stroke: rgba(255, 255, 255, 0.12);
+    
+    /* Dynamic Theme Colors */
+    --primary-hue: 239;
+    --primary-sat: 84%;
+    --primary-light: 67%;
+    --primary-color: hsl(var(--primary-hue), var(--primary-sat), var(--primary-light));
+    --grad: linear-gradient(135deg, var(--primary-color) 0%, hsl(calc(var(--primary-hue) + 30), var(--primary-sat), var(--primary-light)) 45%, #22d3ee 100%);
+  }
+
+  html.light-mode {
+    --bg-body: #f8fafc;
+    --text-main: #0f172a;
+    --text-muted: #475569;
+    --glass: rgba(255, 255, 255, 0.8);
+    --glass-strong: rgba(255, 255, 255, 0.95);
+    --stroke: rgba(15, 23, 42, 0.1);
+    --primary-light: 50%; /* Darker for better contrast on white */
+  }
+
+  *{ -webkit-tap-highlight-color: transparent; transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease; }
+  html{ scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
+  body{
+    background:var(--bg-body);
+    color:var(--text-main);
+    font-family:'Plus Jakarta Sans','Vazirmatn',sans-serif;
+    font-size:13px; line-height:1.65;
+    overflow-x:hidden;
+  }
+  html[dir="rtl"] body{ font-family:'Vazirmatn',sans-serif; font-size:13.5px; }
+  h1,h2,h3,h4{ font-family:'Sora','Vazirmatn',sans-serif; letter-spacing:-.015em; }
+  html[dir="rtl"] h1,html[dir="rtl"] h2,html[dir="rtl"] h3,html[dir="rtl"] h4{ font-family:'Vazirmatn',sans-serif; letter-spacing:0; }
+
+  /* aurora background */
+  .aurora{ position:fixed; inset:0; z-index:-2; overflow:hidden; pointer-events:none; }
+  .aurora span{ position:absolute; border-radius:50%; filter:blur(90px); opacity:.42; animation:float 18s ease-in-out infinite; }
+  .aurora .a1{ width:52vw;height:52vw;left:-14vw;top:-14vw;background:var(--primary-color); }
+  .aurora .a2{ width:46vw;height:46vw;right:-16vw;top:12vh;background:hsl(calc(var(--primary-hue) + 30),var(--primary-sat),var(--primary-light));animation-delay:-6s; }
+  .aurora .a3{ width:44vw;height:44vw;left:18vw;bottom:-18vh;background:#0891b2;animation-delay:-11s; }
+  @keyframes float{ 0%,100%{transform:translate3d(0,0,0) scale(1)} 33%{transform:translate3d(4vw,-3vh,0) scale(1.09)} 66%{transform:translate3d(-3vw,4vh,0) scale(.95)} }
+  
+  .grid-veil{ position:fixed; inset:0; z-index:-1; pointer-events:none;
+    background-image:linear-gradient(var(--stroke) 1px,transparent 1px),linear-gradient(90deg,var(--stroke) 1px,transparent 1px);
+    background-size:44px 44px; mask-image:radial-gradient(ellipse at 50% 0%,#000 10%,transparent 72%); }
+
+  /* glass */
+  .glass{
+    background:var(--glass);
+    border:1px solid var(--stroke);
+    backdrop-filter:blur(18px) saturate(150%);
+    -webkit-backdrop-filter:blur(18px) saturate(150%);
+    border-radius:18px;
+    box-shadow:0 18px 42px -22px rgba(0,0,0,.85), inset 0 1px 0 rgba(255,255,255,.07);
+    position:relative; overflow:hidden;
+    transition:transform .45s cubic-bezier(.2,.7,.3,1), border-color .35s, box-shadow .45s;
+  }
+  html.light-mode .glass { box-shadow: 0 10px 30px -10px rgba(0,0,0,0.1); }
+  .glass::after{
+    content:''; position:absolute; inset:0; border-radius:inherit; pointer-events:none; opacity:0;
+    background:radial-gradient(320px circle at var(--mx,50%) var(--my,0%),hsl(var(--primary-hue),var(--primary-sat),var(--primary-light),.20),transparent 62%);
+    transition:opacity .35s;
+  }
+  .glass:hover{ transform:translateY(-4px); border-color:var(--primary-color);
+    box-shadow:0 26px 60px -24px hsl(var(--primary-hue),var(--primary-sat),var(--primary-light),.6), inset 0 1px 0 rgba(255,255,255,.1); }
+  .glass:hover::after{ opacity:1; }
+
+  .chip{ background:var(--stroke); border:1px solid var(--stroke); border-radius:999px;
+    padding:.28rem .62rem; font-size:11px; line-height:1.25; transition:.28s; display:inline-block; color: var(--text-main); }
+  .chip:hover{ background:hsl(var(--primary-hue),var(--primary-sat),var(--primary-light),.22); border-color:var(--primary-color); transform:translateY(-2px); }
+
+  .grad-text{ background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .grad-bg{ background:var(--grad); color: white !important; }
+  
+  .btn-glow{ position:relative; border-radius:14px; overflow:hidden; transition:transform .25s, box-shadow .35s;
+    box-shadow:0 12px 34px -12px hsl(var(--primary-hue),var(--primary-sat),var(--primary-light),.85); }
+  .btn-glow:hover{ transform:translateY(-2px); box-shadow:0 18px 46px -12px hsl(var(--primary-hue),var(--primary-sat),var(--primary-light),1); }
+  .btn-glow:active{ transform:scale(.97); }
+  .btn-glow::before{ content:''; position:absolute; top:0; left:-120%; width:60%; height:100%;
+    background:linear-gradient(90deg,transparent,rgba(255,255,255,.45),transparent); transform:skewX(-18deg); }
+  .btn-glow:hover::before{ animation:shine .85s ease; }
+  @keyframes shine{ to{ left:140%; } }
+
+  .ring-photo{ position:relative; }
+  .ring-photo::before{ content:''; position:absolute; inset:-4px; border-radius:50%;
+    background:conic-gradient(from 0deg,var(--primary-color),#22d3ee,hsl(calc(var(--primary-hue) + 60),var(--primary-sat),var(--primary-light)),var(--primary-color)); animation:spin 7s linear infinite; z-index:0; filter:blur(.4px); }
+  @keyframes spin{ to{ transform:rotate(360deg); } }
+  .ring-photo img,.ring-photo .ph{ position:relative; z-index:1; }
+
+  /* reveal */
+  .reveal{ opacity:0; transform:translateY(22px); transition:opacity .7s cubic-bezier(.2,.7,.3,1), transform .7s cubic-bezier(.2,.7,.3,1); }
+  .reveal.in{ opacity:1; transform:none; }
+
+  /* nav */
+  #nav{ transition:background .4s, box-shadow .4s, backdrop-filter .4s, border-color .4s; border-bottom:1px solid transparent; }
+  #nav.stuck{ background:rgba(7,11,24,.72); backdrop-filter:blur(16px) saturate(160%);
+    -webkit-backdrop-filter:blur(16px) saturate(160%); border-bottom-color:var(--stroke); box-shadow:0 12px 30px -22px #000; }
+  html.light-mode #nav.stuck { background:rgba(255,255,255,0.85); border-bottom-color: rgba(0,0,0,0.05); }
+  
+  .navlink{ font-size:12px; padding:.35rem .6rem; border-radius:10px; color:var(--text-main); opacity: 0.7; transition:.25s; }
+  .navlink:hover,.navlink.active{ opacity: 1; background:rgba(255,255,255,.08); }
+  html.light-mode .navlink:hover, html.light-mode .navlink.active { background: rgba(0,0,0,0.05); }
+  
+  #bar{ position:fixed; top:0; left:0; height:2px; width:0; z-index:60; background:var(--grad); }
+
+  .tl{ position:relative; padding-inline-start:1.05rem; border-inline-start:2px solid hsl(var(--primary-hue),var(--primary-sat),var(--primary-light),.35); }
+  .tl::before{ content:''; position:absolute; inset-inline-start:-6px; top:6px; width:10px; height:10px; border-radius:50%;
+    background:var(--grad); box-shadow:0 0 0 4px var(--bg-body); }
+
+  .metric{ font-variant-numeric:tabular-nums; }
+  ::selection{ background:hsl(var(--primary-hue),var(--primary-sat),var(--primary-light),.45); }
+  ::-webkit-scrollbar{ width:8px; height:8px; }
+  ::-webkit-scrollbar-thumb{ background:hsl(var(--primary-hue),var(--primary-sat),var(--primary-light),.4); border-radius:99px; }
+  ::-webkit-scrollbar-track{ background:transparent; }
+
+  /* Theme Switcher Styles */
+  .theme-switcher-container { position: relative; display: inline-block; }
+  .theme-menu {
+    position: absolute; top: 100%; right: 0; margin-top: 12px;
+    background: var(--glass-strong); border: 1px solid var(--stroke);
+    backdrop-filter: blur(20px); border-radius: 16px; padding: 12px;
+    display: none; grid-template-columns: repeat(5, 1fr); gap: 10px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3); z-index: 1000; min-width: 160px;
+  }
+  .theme-menu.active { display: grid; animation: slideDown 0.3s ease forwards; }
+  @keyframes slideDown { from { opacity:0; transform:translateY(-10px); } to { opacity:1; transform:translateY(0); } }
+  
+  .color-dot { width: 22px; height: 22px; border-radius: 50%; cursor: pointer; border: 2px solid transparent; transition: 0.2s; }
+  .color-dot:hover { transform: scale(1.2); }
+  .color-dot.active { border-color: var(--text-main); transform: scale(1.1); }
+
+  [data-en],[data-fa]{ display:none; }
+  html[lang="en"] [data-en]{ display:revert; }
+  html[lang="fa"] [data-fa]{ display:revert; }
+
+  @media (prefers-reduced-motion: reduce){
+    *,*::before,*::after{ animation:none !important; transition:none !important; }
+    .reveal{ opacity:1; transform:none; }
+  }
+  @media print{
+    .aurora,.grid-veil,#nav,#bar,.no-print,.theme-switcher-container{ display:none !important; }
+    body{ background:#fff; color:#000; font-size:11px; }
+    .glass{ background:#fff; border:1px solid #ddd; box-shadow:none; break-inside:avoid; }
+    .grad-text{ color:#3730a3 !important; -webkit-text-fill-color:#3730a3; }
+  }
 </style>
-<body class="w3-black">
+</head>
+<body class="font-body antialiased">
 
+<div id="bar"></div>
+<div class="aurora"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+<div class="grid-veil"></div>
 
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+<!-- ================= NAVBAR ================= -->
+<header id="nav" class="fixed inset-x-0 top-0 z-50">
+  <nav class="mx-auto flex max-w-5xl items-center gap-2 px-3 py-2.5 sm:px-5">
+    <a href="#hero" class="flex items-center gap-2 shrink-0">
+      <span class="grad-bg flex h-8 w-8 items-center justify-center rounded-xl text-[12px] font-bold text-white shadow-lg">WS</span>
+      <span class="hidden text-[13px] font-semibold sm:block">
+        <span data-en>Wahid Ullah Sharifi</span><span data-fa>وحیدالله شریفی</span>
+      </span>
+    </a>
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
- 
-    <div class="w3-third">
-    
-      <div class="w3-black w3-text-white w3-card-4">
-        <div class="w3-display-container w3-center">
-          <img class="w3-circle" src="./1.jpg" style="width:200px; height: 200px; object-fit: cover;" alt="Avatar">
-          <div class=" w3-container w3-margin-top w3-text-orange">
-            <h2>Wahid Ullah Sharifi</h2>
-          </div>
-        </div>
-        <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Information Technology</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i> Afghanistan, Mazar</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>wahidullahsharifi777@gmail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>0795730361</p>
-          <hr>
-
-          <p class="w3-large w3-text-orange"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-orange"></i>Skills</b></p>
-          <p>Web Development</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">70%</div>
-          </div>
-          <p>Finance Management Skill</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">85%</div>
-          </div>
-          <p> Microsoft office</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-              <div class="w3-center w3-text-white">80%</div>
-            </div>
-          </div>
-          <p>Calligraphy</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
-          </div>
-          <p>Computer Skill</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 75%">75%</div>
-          </div>
-          <p>Typing & CopyWriting Skill</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 90%">90%</div>
-          </div>
-          <br>
-
-          <p class="w3-large w3-text-orange"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-orange"></i>Languages</b></p>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:80%"></div>
-          </div>
-         
-          <p>Dari</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <br>
-        </div>
-      </div><br>
-
-    
+    <!-- Dynamic Theme Switcher -->
+    <div class="theme-switcher-container ms-4 no-print">
+      <button id="themeToggleBtn" class="w-9 h-9 flex items-center justify-center rounded-full hover:bg-black/5 dark:hover:bg-white/5 text-lg" title="Change Theme Color">🎨</button>
+      <div id="themeMenu" class="theme-menu">
+         <!-- Colors will be injected by JavaScript -->
+      </div>
     </div>
 
-  
-    <div class="w3-twothird">
-    
-      <div class="w3-container w3-card w3-black w3-margin-bottom">
-        <h2 class="w3-text-orange w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-orange"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-text-orange"><b>Wahid ullah  CV.</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2020 - October 2023 <span class="w3-tag w3-teal w3-round"></span></h6>
-          <h6>Work as a Manager In Pharmacy </h6>
-          <p>And Control all Finance Calculation.</p>
-          <p>Term:3 year</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class=""><b>Working in Office</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019-2020</h6>
-          <p> in part of mangment.</p>
-          <p>Term: 6 Month</p>
-          <hr>
-        </div>
-      </div>
-
-      <div class="w3-container w3-card w3-black">
-        <h2 class="w3-text-orange w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-orange"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class=""><b>Student Of Computer Scince in Balkh University</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Still During</h6>
-          <p>4th Class</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class=""><b>Certificate Of Accounting & Databases from Avicenna University</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Year: 2022/9/27</h6>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class=""><b>Graduated from Sultan Ghiyasuddin High School</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>gradute:2019</h6>
-          <p>12th grade graduation</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class=   ""><b>I have English Diploma from Rah-e-Pozhoesh</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019 - 2020</h6>
-          <p>TouchStone Diploma</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class=""><b>I have Office Package diploma from Sub-e-Danish</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - 2019</h6>
-          <p>Microsot office  pakage</p><hr><br>
-      </div>
-        <div class="w3-container">
-          <h5 class=""><b>Calligraphy Certificate & Many More Certificate From Different Courses!</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2024</h6>
-          <hr><br>
-      </div>
-
-    <!-- End Right Column -->
+    <div class="mx-auto hidden items-center gap-1 md:flex">
+      <a class="navlink" href="#about"><span data-en>About</span><span data-fa>درباره</span></a>
+      <a class="navlink" href="#skills"><span data-en>Skills</span><span data-fa>مهارت‌ها</span></a>
+      <a class="navlink" href="#experience"><span data-en>Experience</span><span data-fa>تجربه کاری</span></a>
+      <a class="navlink" href="#education"><span data-en>Education</span><span data-fa>تحصیلات</span></a>
+      <a class="navlink" href="#certificates"><span data-en>Certificates</span><span data-fa>تصدیق‌نامه‌ها</span></a>
+      <a class="navlink" href="#contact"><span data-en>Contact</span><span data-fa>تماس</span></a>
     </div>
-    
-  <!-- End Grid -->
+
+    <div class="ms-auto flex items-center gap-1.5 md:ms-0">
+      <!-- Mode Toggle Button -->
+      <button id="modeBtn" class="w-9 h-9 flex items-center justify-center rounded-full hover:bg-black/5 dark:hover:bg-white/5 text-lg no-print">🌙</button>
+      
+      <button id="langBtn" type="button"
+        class="glass !rounded-xl px-2.5 py-1.5 text-[11px] font-semibold tracking-wide">
+        <span data-en>فارسی</span><span data-fa>English</span>
+      </button>
+      <a href="./Wahid CV New.pdf" download
+        class="btn-glow grad-bg hidden px-3 py-1.5 text-[11px] font-bold text-white sm:inline-block">
+        <span data-en>Download CV</span><span data-fa>دانلود سی‌وی</span>
+      </a>
+      <button id="menuBtn" type="button" class="glass !rounded-xl p-1.5 md:hidden" aria-label="Menu">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </nav>
+  <div id="mobileMenu" class="mx-3 mb-2 hidden md:!hidden">
+    <div class="glass grid grid-cols-2 gap-1 p-2 text-[12px]">
+      <a class="navlink" href="#about"><span data-en>About</span><span data-fa>درباره</span></a>
+      <a class="navlink" href="#skills"><span data-en>Skills</span><span data-fa>مهارت‌ها</span></a>
+      <a class="navlink" href="#experience"><span data-en>Experience</span><span data-fa>تجربه کاری</span></a>
+      <a class="navlink" href="#education"><span data-en>Education</span><span data-fa>تحصیلات</span></a>
+      <a class="navlink" href="#certificates"><span data-en>Certificates</span><span data-fa>تصدیق‌نامه‌ها</span></a>
+      <a class="navlink" href="#contact"><span data-en>Contact</span><span data-fa>تماس</span></a>
+    </div>
   </div>
-  
-  <!-- End Page Container -->
-</div><br>
+</header>
 
-<!-- <footer class="w3-container w3-teal w3-center w3-margin-top w3-bottom">
-  <h1>hamdi </h1>
-  
-</footer >  -->
+<main class="mx-auto w-full max-w-5xl px-3 pt-20 pb-10 sm:px-5">
 
+  <!-- ================= HERO ================= -->
+  <section id="hero" class="reveal glass p-4 sm:p-7">
+    <div class="flex flex-col items-center gap-5 text-center sm:flex-row sm:items-center sm:gap-6 sm:text-start">
+      <div class="ring-photo h-24 w-24 shrink-0 rounded-full sm:h-28 sm:w-28">
+        <img id="profilePhoto"
+             src="./My Picture.jpeg"
+             alt="Wahid Ullah Sharifi — profile photo"
+             width="400" height="400" loading="eager" decoding="async"
+             class="h-full w-full rounded-full object-cover ring-2 ring-white/20" />
+      </div>
+
+      <div class="min-w-0 flex-1">
+        <p class="chip mb-2"><span data-en>Available for opportunities</span><span data-fa>آماده همکاری</span></p>
+        <h1 class="text-2xl font-extrabold leading-tight sm:text-4xl">
+          <span data-en>Wahid Ullah <span class="grad-text">Sharifi</span></span>
+          <span data-fa>وحیدالله <span class="grad-text">شریفی</span></span>
+        </h1>
+        <p class="mt-1.5 text-[12.5px] opacity-80 sm:text-[13.5px]">
+          <span data-en>Database Developer · Web Developer · Finance Manager</span>
+          <span data-fa>دیتابیس دیولوپر · ویب دیولوپر · مدیر مالی</span>
+        </p>
+
+        <div class="mt-3 flex flex-wrap justify-center gap-1.5 sm:justify-start">
+          <span class="chip">MySQL</span><span class="chip">Laravel</span><span class="chip">PHP</span>
+          <span class="chip">React JS</span><span class="chip">Tailwind</span><span class="chip">Git</span>
+        </div>
+
+        <div class="mt-4 flex flex-wrap justify-center gap-2 sm:justify-start no-print">
+          <a href="./Wahid CV New.pdf" download
+             class="btn-glow grad-bg inline-flex items-center gap-2 px-4 py-2.5 text-[12.5px] font-bold text-white no-underline">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span data-en>Download CV (PDF)</span><span data-fa>دانلود سی‌وی (PDF)</span>
+          </a>
+          <a href="mailto:wahidullahsharifi777@gmail.com"
+             class="glass !rounded-[14px] inline-flex items-center gap-2 px-4 py-2.5 text-[12.5px] font-semibold no-underline text-current">
+            <span data-en>Email me</span><span data-fa>ارسال ایمیل</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-5 grid grid-cols-3 gap-2 sm:gap-3">
+      <div class="glass p-2.5 text-center sm:p-3">
+        <p class="metric grad-text text-lg font-extrabold sm:text-2xl">6+</p>
+        <p class="text-[10.5px] opacity-60"><span data-en>Years experience</span><span data-fa>سال تجربه</span></p>
+      </div>
+      <div class="glass p-2.5 text-center sm:p-3">
+        <p class="metric grad-text text-lg font-extrabold sm:text-2xl">50</p>
+        <p class="text-[10.5px] opacity-60"><span data-en>WPM typing</span><span data-fa>کلمه تایپ در دقیقه</span></p>
+      </div>
+      <div class="glass p-2.5 text-center sm:p-3">
+        <p class="metric grad-text text-lg font-extrabold sm:text-2xl">7</p>
+        <p class="text-[10.5px] opacity-60"><span data-en>Certificates</span><span data-fa>تصدیق‌نامه</span></p>
+      </div>
+    </div>
+  </section>
+
+  <div class="mt-4 grid gap-4 md:grid-cols-[1fr_1.35fr]">
+
+    <!-- ================= LEFT COLUMN ================= -->
+    <div class="grid content-start gap-4">
+
+      <!-- ABOUT / PERSONAL -->
+      <section id="about" class="reveal glass p-4 sm:p-5">
+        <h2 class="mb-3 text-[11px] font-bold uppercase tracking-[.18em] grad-text">
+          <span data-en>Personal Information</span><span data-fa>معلومات شخصی</span>
+        </h2>
+        <dl class="grid grid-cols-2 gap-x-3 gap-y-2 text-[12px]">
+          <div><dt class="text-[10px] uppercase tracking-wider opacity-50"><span data-en>Father's Name</span><span data-fa>نام پدر</span></dt>
+            <dd class="font-semibold"><span data-en>Zekrullah</span><span data-fa>ذکرالله</span></dd></div>
+          <div><dt class="text-[10px] uppercase tracking-wider opacity-50"><span data-en>Date of Birth</span><span data-fa>تاریخ تولد</span></dt>
+            <dd class="font-semibold"><span data-en>04 Jun 2001</span><span data-fa>۱۴ جوزا ۱۳۸۰</span></dd></div>
+          <div><dt class="text-[10px] uppercase tracking-wider opacity-50"><span data-en>Place of Birth</span><span data-fa>محل تولد</span></dt>
+            <dd class="font-semibold"><span data-en>Mazar-e-Sharif</span><span data-fa>مزارشریف</span></dd></div>
+          <div><dt class="text-[10px] uppercase tracking-wider opacity-50"><span data-en>Nationality</span><span data-fa>ملیت</span></dt>
+            <dd class="font-semibold"><span data-en>Afghan</span><span data-fa>افغان</span></dd></div>
+          <div><dt class="text-[10px] uppercase tracking-wider opacity-50"><span data-en>Marital Status</span><span data-fa>حالت مدنی</span></dt>
+            <dd class="font-semibold"><span data-en>Single</span><span data-fa>مجرد</span></dd></div>
+          <div><dt class="text-[10px] uppercase tracking-wider opacity-50"><span data-en>Gender</span><span data-fa>جنسیت</span></dt>
+            <dd class="font-semibold"><span data-en>Male</span><span data-fa>مرد</span></dd></div>
+      </dl>
+    </section>
+
+    <!-- OBJECTIVE -->
+    <section class="reveal glass p-4 sm:p-5">
+      <h2 class="mb-2 text-[11px] font-bold uppercase tracking-[.18em] grad-text">
+        <span data-en>Professional Objective</span><span data-fa>هدف مسلکی</span>
+      </h2>
+      <p class="text-[12px] leading-relaxed opacity-80">
+        <span data-en>Based on the facts cited in this resume, I aim to highlight my relevant skills, academic background, professional experience and values in order to serve organizations that provide a conducive and congenial working opportunity that enhances potential capability.</span>
+        <span data-fa>بر اساس معلومات ارائه‌شده در این رزومه، هدف من به نمایش گذاشتن مهارت‌ها، پس‌زمینهٔ تحصیلی، تجارب مسلکی و ارزش‌های کاری‌ام است تا بتوانم در سازمانی خدمت کنم که فضای کاری مناسب و رشد‌دهنده فراهم می‌سازد.</span>
+      </p>
+    </section>
+
+    <!-- ABILITIES -->
+    <section class="reveal glass p-4 sm:p-5">
+      <h2 class="mb-2.5 text-[11px] font-bold uppercase tracking-[.18em] grad-text">
+        <span data-en>Abilities & Habits</span><span data-fa>توانایی‌ها و عادات</span>
+      </h2>
+      <ul class="flex flex-wrap gap-1.5">
+        <li class="chip"><span data-en>Research & Data Analysis</span><span data-fa>تحقیق و تحلیل دیتا</span></li>
+        <li class="chip"><span data-en>Database Management</span><span data-fa>مدیریت دیتابیس</span></li>
+        <li class="chip"><span data-en>50 WPM Dari / English Typing</span><span data-fa>تایپ ۵۰ کلمه دری/انگلیسی</span></li>
+        <li class="chip"><span data-en>Financial Management</span><span data-fa>مدیریت مالی</span></li>
+      </ul>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="reveal glass p-4 sm:p-5">
+      <h2 class="mb-3 text-[11px] font-bold uppercase tracking-[.18em] grad-text">
+        <span data-en>Professional Skills</span><span data-fa>مهارت‌های مسلکی</span>
+      </h2>
+      <div class="space-y-3">
+        <div>
+          <p class="mb-1.5 text-[10.5px] font-semibold uppercase tracking-wider opacity-50"><span data-en>Frontend</span><span data-fa>فرانت‌اند</span></p>
+          <ul class="flex flex-wrap gap-1.5">
+            <li class="chip">HTML5</li><li class="chip">CSS · Tailwind · Bootstrap · W3.CSS</li>
+            <li class="chip">JavaScript · jQuery</li><li class="chip">React JS</li>
+          </ul>
+        </div>
+        <div>
+          <p class="mb-1.5 text-[10.5px] font-semibold uppercase tracking-wider opacity-50"><span data-en>Backend & Database</span><span data-fa>بک‌اند و دیتابیس</span></p>
+          <ul class="flex flex-wrap gap-1.5">
+            <li class="chip">PHP · PHP RAD</li><li class="chip">CodeIgniter</li><li class="chip">Laravel</li><li class="chip">MySQL</li>
+          </ul>
+        </div>
+        <div>
+          <p class="mb-1.5 text-[10.5px] font-semibold uppercase tracking-wider opacity-50"><span data-en>Tools & Platforms</span><span data-fa>ابزارها و پلتفرم‌ها</span></p>
+          <ul class="flex flex-wrap gap-1.5">
+            <li class="chip">Git / GitHub</li><li class="chip"><span data-en>Web Hosting</span><span data-fa>هاستینگ ویب</span></li>
+            <li class="chip"><span data-en>Artificial Intelligence</span><span data-fa>هوش مصنوعی</span></li>
+            <li class="chip">Microsoft Office</li>
+          </ul>
+        </div>
+        <div>
+          <p class="mb-1.5 text-[10.5px] font-semibold uppercase tracking-wider opacity-50"><span data-en>Other Strengths</span><span data-fa>سایر توانمندی‌ها</span></p>
+          <ul class="flex flex-wrap gap-1.5">
+            <li class="chip"><span data-en>Finance Management</span><span data-fa>مدیریت مالی</span></li>
+            <li class="chip"><span data-en>Calligraphy</span><span data-fa>خطاطی</span></li>
+            <li class="chip"><span data-en>Typing & Copywriting</span><span data-fa>تایپ و کاپی‌رایتینگ</span></li>
+            <li class="chip"><span data-en>PDF / Image / Video Editing</span><span data-fa>ادیت PDF، عکس و ویدیو</span></li>
+            <li class="chip"><span data-en>Good English proficiency</span><span data-fa>تسلط خوب به انگلیسی</span></li>
+            <li class="chip"><span data-en>Planning & priority management</span><span data-fa>پلان‌گذاری و مدیریت اولویت‌ها</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- LANGUAGES -->
+    <section class="reveal glass p-4 sm:p-5">
+      <h2 class="mb-3 text-[11px] font-bold uppercase tracking-[.18em] grad-text">
+        <span data-en>Languages</span><span data-fa>زبان‌ها</span>
+      </h2>
+      <div class="space-y-2.5" id="langBars">
+        <div data-label-en="Dari (Persian)" data-label-fa="دری (فارسی)" data-val="100"></div>
+        <div data-label-en="Pashto" data-label-fa="پشتو" data-val="80"></div>
+        <div data-label-en="English" data-label-fa="انگلیسی" data-val="75"></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ================= RIGHT COLUMN ================= -->
+  <div class="grid content-start gap-4">
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="reveal glass p-4 sm:p-5">
+      <h2 class="mb-3 text-[11px] font-bold uppercase tracking-[.18em] grad-text">
+        <span data-en>Work Experience</span><span data-fa>تجارب کاری</span>
+      </h2>
+      <ol class="space-y-4">
+        <li class="tl">
+          <p class="text-[13px] font-bold"><span data-en>Database Developer & Finance Manager</span><span data-fa>دیتابیس دیولوپر و مدیر مالی</span></p>
+          <p class="text-[12px] opacity-70"><span data-en>Nasser Omar Co. Ltd — Oil & Gas Import/Export</span><span data-fa>شرکت ناصر عمر لمیتد — واردات و صادرات نفت و گاز</span></p>
+          <p class="mt-0.5 text-[11px] text-cyan1 font-bold">2024 – 2026</p>
+          <ul class="mt-1.5 space-y-1 text-[12px] opacity-80">
+            <li class="flex gap-1.5"><span class="mt-[7px] h-1 w-1 shrink-0 rounded-full grad-bg"></span><span data-en>Two years managing company databases and financial operations.</span><span data-fa>دو سال مدیریت دیتابیس‌های شرکت و امور مالی.</span></li>
+            <li class="flex gap-1.5"><span class="mt-[7px] h-1 w-1 shrink-0 rounded-full grad-bg"></span><span data-en>Built and maintained reporting for import/export transactions.</span><span data-fa>ایجاد و نگهداری راپورهای معاملات واردات و صادرات.</span></li>
+          </ul>
+        </li>
+        <li class="tl">
+          <p class="text-[13px] font-bold"><span data-en>Database Manager & Financial Accountant</span><span data-fa>مدیر دیتابیس و محاسب مالی</span></p>
+          <p class="text-[12px] opacity-70"><span data-en>Pharmacy</span><span data-fa>دواخانه</span></p>
+          <p class="mt-0.5 text-[11px] text-cyan1 font-bold"><span data-en>Mar 2020 – Oct 2023</span><span data-fa>حمل ۱۳۹۹ – میزان ۱۴۰۲</span></p>
+          <ul class="mt-1.5 space-y-1 text-[12px] opacity-80">
+            <li class="flex gap-1.5"><span class="mt-[7px] h-1 w-1 shrink-0 rounded-full grad-bg"></span><span data-en>Managed the pharmacy database and financial accounting.</span><span data-fa>مدیریت دیتابیس دواخانه و محاسبات مالی.</span></li>
+            <li class="flex gap-1.5"><span class="mt-[7px] h-1 w-1 shrink-0 rounded-full grad-bg"></span><span data-en>Responsible for purchase and sale of all pharmacy items.</span><span data-fa>مسئول خرید و فروش تمام اقلام دواخانه.</span></li>
+          </ul>
+        </li>
+        <li class="tl">
+          <p class="text-[13px] font-bold"><span data-en>Administrative & IT Officer</span><span data-fa>آمر اداری و آی‌تی</span></p>
+          <p class="text-[12px] opacity-70"><span data-en>Educational Course Office</span><span data-fa>دفتر کورس آموزشی</span></p>
+          <ul class="mt-1.5 space-y-1 text-[12px] opacity-80">
+            <li class="flex gap-1.5"><span class="mt-[7px] h-1 w-1 shrink-0 rounded-full grad-bg"></span><span data-en>Managed financial, performing and executive tasks.</span><span data-fa>مدیریت امور مالی، اجرایی و اداری.</span></li>
+            <li class="flex gap-1.5"><span class="mt-[7px] h-1 w-1 shrink-0 rounded-full grad-bg"></span><span data-en>Set up classes, solved computer problems and implemented services for students.</span><span data-fa>ترتیب صنوف، حل مشکلات کمپیوتری و ارائه خدمات به شاگردان.</span></li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="reveal glass p-4 sm:p-5">
+      <h2 class="mb-3 text-[11px] font-bold uppercase tracking-[.18em] grad-text">
+        <span data-en>Education</span><span data-fa>تحصیلات</span>
+      </h2>
+      <ul class="space-y-3.5">
+        <li class="tl">
+          <p class="text-[13px] font-bold"><span data-en>Balkh University</span><span data-fa>پوهنتون بلخ</span></p>
+          <p class="text-[12px] opacity-70"><span data-en>Graduated — Computer Science, Department of IT</span><span data-fa>فارغ‌التحصیل — پوهنځی کمپیوتر ساینس، دیپارتمنت IT</span></p>
+          <p class="mt-0.5 text-[11px] text-cyan1 font-bold">2025</p>
+        </li>
+        <li class="tl">
+          <p class="text-[13px] font-bold"><span data-en>Sultan Gheyasuddin High School</span><span data-fa>لیسه سلطان غیاث‌الدین</span></p>
+          <p class="text-[12px] opacity-70"><span data-en>General secondary education</span><span data-fa>تحصیلات ثانوی عمومی</span></p>
+          <p class="mt-0.5 text-[11px] text-cyan1 font-bold">2008 – 2020</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates" class="reveal glass p-4 sm:p-5">
+      <h2 class="mb-3 text-[11px] font-bold uppercase tracking-[.18em] grad-text">
+        <span data-en>Certificates & Courses</span><span data-fa>تصدیق‌نامه‌ها و کورس‌ها</span>
+      </h2>
+      <ul class="space-y-1.5 text-[12px] opacity-80">
+        <li class="flex gap-1.5"><span class="mt-[7px] h-1 w-1 shrink-0 rounded-full grad-bg"></span><span data-en>Freelancing and Web Design on LinkedIn — supported by ACTED Organization.</span><span data-fa>فریلانسینگ و دیزاین ویب در LinkedIn — با حمایت موسسه ACTED.</span></li>
+        <li class="flex gap-1.5"><span class="mt-[7px] h-1 w-1 shrink-0 rounded-full grad-bg"></span><span data-en>Certificate of Accounting & Databases — Avicenna University, 27 Sep 2022.</span><span data-fa>تصدیق‌نامه محاسبه و دیتابیس — پوهنتون ابن‌سینا، ۲۷ سپتمبر ۲۰۲۲.</span></li>
+        <li class="flex gap-1.5"><span class="mt-[7px] h-1 w-1 shrink-0 rounded-full grad-bg"></span><span data-en>Udemy Web Development courses — 2023 to present.</span><span data-fa>کورس‌های ویب دیولپمنت Udemy — از ۲۰۲۳ تا اکنون.</span></li>
+        <li class="flex gap-1.5"><span class="mt-[7px] h-1 w-1 shrink-0 rounded-full grad-bg"></span><span data-en>Touchstone International English Program — Rah-e-Pozhohesh Center, 01 May 2018.</span><span data-fa>برنامه انگلیسی Touchstone — مرکز آموزشی راه پژوهش، ۰۱ می ۲۰۱۸.</span></li>
+        <li class="flex gap-1.5"><span class="mt-[7px] h-1 w-1 shrink-0 rounded-full grad-bg"></span><span data-en>Headway System — Subh-e-Danish Educational Center, 18 Apr 2017.</span><span data-fa>سیستم Headway — مرکز آموزشی صبح دانش، ۱۸ اپریل ۲۰۱۷.</span></li>
+        <li class="flex gap-1.5"><span class="mt-[7px] h-1 w-1 shrink-0 rounded-full grad-bg"></span><span data-en>M.S. Office Package (IT) — Subh-e-Danish Educational Center, 18 Mar 2017.</span><span data-fa>پکیج M.S. Office (آی‌تی) — مرکز آموزشی صبح دانش، ۱۸ مارچ ۲۰۱۷.</span></li>
+        <li class="flex gap-1.5"><span class="mt-[7px] h-1 w-1 shrink-0 rounded-full grad-bg"></span><span data-en>Calligraphy and Tablet Writing — Subh-e-Danish, 24 Jun 2016.</span><span data-fa>خطاطی و تخته‌نویسی — صبح دانش، ۲۴ جون ۲۰۱۶.</span></li>
+      </ul>
+    </section>
+
+    <!-- REFERENCE -->
+    <section class="reveal glass p-4 sm:p-5">
+      <h2 class="mb-2.5 text-[11px] font-bold uppercase tracking-[.18em] grad-text">
+        <span data-en>Reference</span><span data-fa>معرف</span>
+      </h2>
+      <p class="text-[13px] font-bold"><span data-en>Nasratullah Walizadah</span><span data-fa>نصرت‌الله ولی‌زاده</span></p>
+      <p class="text-[12px] opacity-70"><span data-en>Associate Professor Candidate · HOD, Communication and Operating Systems</span><span data-fa>کاندید پوهنیار · آمر دیپارتمنت مخابرات و سیستم‌های عامل</span></p>
+      <p class="text-[12px] opacity-70"><span data-en>Faculty of Computer Science, Balkh University</span><span data-fa>پوهنځی کمپیوتر ساینس، پوهنتون بلخ</span></p>
+      <div class="mt-2 space-y-1 text-[12px]">
+        <a class="block text-cyan1 hover:underline" href="mailto:nasratwalizada70@yahoo.com">nasratwalizada70@yahoo.com</a>
+        <a class="block text-cyan1 hover:underline" href="mailto:nwalizada@ba.edu.af">nwalizada@ba.edu.af</a>
+        <a class="block text-cyan1 hover:underline" href="tel:+93792402043" dir="ltr">+93 792 402 043</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="reveal glass p-4 sm:p-5">
+      <h2 class="mb-3 text-[11px] font-bold uppercase tracking-[.18em] grad-text">
+        <span data-en>Contact</span><span data-fa>تماس</span>
+      </h2>
+      <div class="grid gap-2 text-[12px] sm:grid-cols-2">
+        <a href="mailto:wahidullahsharifi777@gmail.com" class="glass !rounded-xl flex items-center gap-2 px-3 py-2 sm:col-span-2 no-underline text-current">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" class="text-cyan1" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+          <span class="truncate" dir="ltr">wahidullahsharifi777@gmail.com</span>
+        </a>
+        <a href="tel:0795730361" class="glass !rounded-xl flex items-center gap-2 px-3 py-2 no-underline text-current">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" class="text-cyan1" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z"/></svg>
+          <span dir="ltr">0795730361</span>
+        </a>
+        <a href="tel:0731282300" class="glass !rounded-xl flex items-center gap-2 px-3 py-2 no-underline text-current">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" class="text-cyan1" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z"/></svg>
+          <span dir="ltr">0731282300</span>
+        </a>
+        <div class="glass !rounded-xl flex items-center gap-2 px-3 py-2 sm:col-span-2">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" class="text-cyan1" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span><span data-en>Mazar-e-Sharif, Afghanistan</span><span data-fa>افغانستان، مزارشریف</span></span>
+        </div>
+      </div>
+
+      <div class="mt-4 flex flex-wrap gap-2 no-print">
+        <a href="./Wahid CV New.pdf" download class="btn-glow grad-bg inline-flex items-center gap-2 px-4 py-2.5 text-[12.5px] font-bold text-white no-underline">
+          <span data-en>Download CV (PDF)</span><span data-fa>دانلود سی‌وی (PDF)</span>
+        </a>
+        <button type="button" id="printBtn" class="glass !rounded-[14px] px-4 py-2.5 text-[12.5px] font-semibold">
+          <span data-en>Print</span><span data-fa>پرینت</span>
+        </button>
+      </div>
+    </section>
+  </div>
+</div>
+
+<footer class="mt-6 pb-4 text-center text-[11px] opacity-50">
+  © <span id="year"></span> <span data-en>Wahid Ullah Sharifi — All rights reserved.</span><span data-fa>وحیدالله شریفی — تمام حقوق محفوظ است.</span>
+</footer>
+</main>
+
+<a href="./Wahid CV New.pdf" download id="fab"
+ class="btn-glow grad-bg fixed bottom-4 end-4 z-50 flex h-12 w-12 items-center justify-center rounded-full text-white shadow-2xl sm:hidden no-print"
+ aria-label="Download CV">
+<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+</a>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+$(function () {
+const html = document.documentElement;
+
+/* ---------- year ---------- */
+$('#year').text(new Date().getFullYear());
+
+/* ---------- Dynamic Theme Switcher (10 Colors) ---------- */
+const themes = [
+    { h: 258, s: '90%', l: '66%', hex: '#8b5cf6' }, // Violet
+  { h: 239, s: '84%', l: '67%', hex: '#6366f1' }, // Indigo (Default)
+  { h: 330, s: '81%', l: '60%', hex: '#f43f5e' }, // Rose
+  { h: 217, s: '91%', l: '60%', hex: '#3b82f6' }, // Blue
+  { h: 174, s: '72%', l: '41%', hex: '#14b8a6' }, // Teal
+//   { h: 160, s: '84%', l: '39%', hex: '#10b981' }, // Emerald
+//   { h: 38,  s: '92%', l: '50%', hex: '#f59e0b' }, // Amber
+//   { h: 189, s: '94%', l: '43%', hex: '#06b6d4' }, // Cyan
+//   { h: 25,  s: '95%', l: '53%', hex: '#f97316' }, // Orange
+//   { h: 0,   s: '84%', l: '60%', hex: '#ef4444' }  // Red
+];
+
+const themeMenu = $('#themeMenu');
+themes.forEach((t) => {
+  const dot = $(`<div class="color-dot" style="background:${t.hex}" data-hue="${t.h}" data-sat="${t.s}"></div>`);
+  dot.on('click', function(e) {
+    e.stopPropagation();
+    $('.color-dot').removeClass('active');
+    $(this).addClass('active');
+    html.style.setProperty('--primary-hue', t.h);
+    html.style.setProperty('--primary-sat', t.s);
+    localStorage.setItem('cv-hue', t.h);
+    localStorage.setItem('cv-sat', t.s);
+    themeMenu.removeClass('active');
+  });
+  themeMenu.append(dot);
+});
+
+$('#themeToggleBtn').on('click', (e) => {
+  e.stopPropagation();
+  themeMenu.toggleClass('active');
+});
+
+$(document).on('click', () => themeMenu.removeClass('active'));
+
+/* ---------- Dark/Light Mode Logic ---------- */
+const modeBtn = $('#modeBtn');
+function setMode(isLight) {
+  if (isLight) {
+    html.classList.add('light-mode');
+    modeBtn.text('☀️');
+  } else {
+    html.classList.remove('light-mode');
+    modeBtn.text('🌙');
+  }
+  localStorage.setItem('theme-mode', isLight ? 'light' : 'dark');
+}
+
+modeBtn.on('click', () => setMode(!html.classList.contains('light-mode')));
+
+// Init Settings
+const savedMode = localStorage.getItem('theme-mode');
+if (savedMode === 'light') setMode(true);
+
+const savedHue = localStorage.getItem('cv-hue') || 239;
+const savedSat = localStorage.getItem('cv-sat') || '84%';
+html.style.setProperty('--primary-hue', savedHue);
+html.style.setProperty('--primary-sat', savedSat);
+$(`.color-dot[data-hue="${savedHue}"]`).addClass('active');
+
+/* ---------- language switch (EN / FA + RTL) ---------- */
+function applyLang(lang) {
+  html.setAttribute('lang', lang);
+  html.setAttribute('dir', lang === 'fa' ? 'rtl' : 'ltr');
+  document.title = lang === 'fa'
+    ? 'وحیدالله شریفی — سی‌وی دیتابیس و ویب دیولوپر'
+    : 'Wahid Ullah Sharifi — Database & Web Developer CV';
+  try { localStorage.setItem('cv-lang', lang); } catch (e) {}
+  buildLangBars();
+}
+var saved = 'en';
+try { saved = localStorage.getItem('cv-lang') || 'en'; } catch (e) {}
+applyLang(saved);
+
+$('#langBtn').on('click', function () {
+  applyLang(html.getAttribute('lang') === 'fa' ? 'en' : 'fa');
+});
+
+/* ---------- language proficiency bars ---------- */
+function buildLangBars() {
+  var isFa = html.getAttribute('lang') === 'fa';
+  $('#langBars > div').each(function () {
+    var $d = $(this), val = $d.data('val');
+    var label = isFa ? $d.data('label-fa') : $d.data('label-en');
+    $d.html(
+      '<div class="flex items-center justify-between text-[11.5px]">' +
+        '<span class="font-semibold">' + label + '</span>' +
+        '<span class="metric opacity-60">' + val + '%</span>' +
+      '</div>' +
+      '<div class="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-black/10 dark:bg-white/10">' +
+        '<div class="h-full rounded-full grad-bg" style="width:0%;transition:width 1.1s cubic-bezier(.2,.7,.3,1)"></div>' +
+      '</div>'
+    );
+    setTimeout(function(){ $d.find('.grad-bg').css('width', val + '%'); }, 120);
+  });
+}
+
+/* ---------- scroll progress + sticky nav ---------- */
+$(window).on('scroll', function () {
+  var st = $(window).scrollTop();
+  var h = $(document).height() - $(window).height();
+  $('#bar').css('width', (h > 0 ? (st / h) * 100 : 0) + '%');
+  $('#nav').toggleClass('stuck', st > 12);
+
+  var cur = '';
+  $('main section[id]').each(function () {
+    if ($(this).offset().top - 110 <= st) cur = this.id;
+  });
+  $('.navlink').removeClass('active').filter('[href="#' + cur + '"]').addClass('active');
+}).trigger('scroll');
+
+/* ---------- mobile menu ---------- */
+$('#menuBtn').on('click', function () { $('#mobileMenu').slideToggle(180); });
+$('#mobileMenu a').on('click', function () { $('#mobileMenu').slideUp(150); });
+
+/* ---------- smooth anchor scroll ---------- */
+$('a[href^="#"]').on('click', function (e) {
+  var t = $($(this).attr('href'));
+  if (t.length) { e.preventDefault(); $('html,body').animate({ scrollTop: t.offset().top - 72 }, 520); }
+});
+
+/* ---------- reveal on scroll ---------- */
+if ('IntersectionObserver' in window) {
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en, i) {
+      if (en.isIntersecting) { setTimeout(function(){ en.target.classList.add('in'); }, i * 70); io.unobserve(en.target); }
+    });
+  }, { threshold: .12, rootMargin: '0px 0px -8% 0px' });
+  $('.reveal').each(function () { io.observe(this); });
+} else { $('.reveal').addClass('in'); }
+
+/* ---------- glass spotlight hover ---------- */
+$(document).on('mousemove', '.glass', function (e) {
+  var r = this.getBoundingClientRect();
+  this.style.setProperty('--mx', (e.clientX - r.left) + 'px');
+  this.style.setProperty('--my', (e.clientY - r.top) + 'px');
+});
+
+/* ---------- subtle 3D tilt on hero (desktop only) ---------- */
+if (window.matchMedia('(hover:hover) and (min-width:768px)').matches) {
+  var $hero = $('#hero');
+  $hero.on('mousemove', function (e) {
+    var r = this.getBoundingClientRect();
+    var rx = ((e.clientY - r.top) / r.height - .5) * -4;
+    var ry = ((e.clientX - r.left) / r.width - .5) * 4;
+    this.style.transform = 'perspective(1000px) rotateX(' + rx + 'deg) rotateY(' + ry + 'deg) translateY(-4px)';
+  }).on('mouseleave', function () { this.style.transform = ''; });
+}
+
+/* ---------- count-up metrics ---------- */
+$('.metric').each(function () {
+  var $m = $(this), txt = $m.text(), num = parseInt(txt, 10);
+  if (isNaN(num)) return;
+  var suffix = txt.replace(/[0-9]/g, ''), start = null;
+  function step(ts) {
+    if (!start) start = ts;
+    var p = Math.min((ts - start) / 1100, 1);
+    $m.text(Math.floor(num * (1 - Math.pow(1 - p, 3))) + suffix);
+    if (p < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+});
+
+/* ---------- print ---------- */
+$('#printBtn').on('click', function () { window.print(); });
+
+/* ---------- photo fallback ---------- */
+$('#profilePhoto').on('error', function () {
+  this.src = 'https://placehold.co/400x400/1e1b4b/c7d2fe?text=WS';
+});
+});
+</script>
 </body>
-
-
 </html>
